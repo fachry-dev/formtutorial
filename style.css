@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to top left #552355 #C96868 #FF885B);
+    background-size: 100%;
+    animation: gradient 10s infinite alternate;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 40%;
+}
+fieldset{
+    background-color: transparent;
+    border: #C96868 solid 1px;
+    border-radius: 16px;
+    padding: 20px;
+    box-shadow: 7px 10px 40px #000;
+}
+h1{
+    color: #C96868;
+    font-weight: 550;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-grup{
+    margin: 6px;
+}
+label,button{
+    padding: 8px;
+    box-sizing: border-box;
+    color: #000;
+}
+input{
+    padding: 8px;
+    box-sizing: border-box;
+    color: #000;
+}
+input[type="text"], input[type="email"]{
+    width: 100%;
+    border: 1px solid #ccc;
+}
+input[type="chekbox"]{
+    margin-right: 8px;
+}
+.chekbox-grup{
+    margin: 20px;
+    flex-direction: column;
+    display: flex;
+}
+p{
+    color: #000;
+}
+.btn-login{
+    background-color: #C96868;
+    border: none;
+    border-radius: 15px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-top: 2px;
+    width: 100%;
+    text-align: center;
+}
+@keyframes linearGradient{
+    0%{
+        background-position:center ;
+    }
+    25%{
+        background-position: right;
+        background-size: 250%;
+    }
+    50%{
+        background-position: left;
+        background-size: 350%;
+    }
+    75%{
+        background-position: bottom;
+        background-size: 200%;
+    }
+    100%{
+        background-position: center;
+    }
+}
