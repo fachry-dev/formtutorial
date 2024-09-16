@@ -5,7 +5,7 @@
 body{
     width: 100vw;
     height: 100vh;
-    background: linear-gradient(to top left #552355 #C96868 #FF885B);
+    background: linear-gradient(to top left, #552355, #fff, #FF885B);
     background-size: 100%;
     animation: gradient 10s infinite alternate;
     display: flex;
@@ -67,7 +67,7 @@ p{
     width: 100%;
     text-align: center;
 }
-@keyframes linearGradient{
+@keyframes gradient{
     0%{
         background-position:center ;
     }
